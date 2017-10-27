@@ -1,0 +1,268 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1730,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/benfraser/Google Drive/UX project/digital-service-mapping"
+	],
+	"file_history":
+	[
+		"/Users/benfraser/Documents/mamp-htdocs/psy-trance-guide/index.html",
+		"/Users/benfraser/Documents/mamp-htdocs/psy-trance-guide/css/custom.css",
+		"/Users/benfraser/Documents/mamp-htdocs/psy-trance-guide/js/app.js",
+		"/Users/benfraser/Documents/mamp-htdocs/psy-trance-guide/js/subgenres.json",
+		"/Users/benfraser/Documents/mamp-htdocs/psy-trance-guide/css/bootstrap.css",
+		"/Users/benfraser/Documents/mamp-htdocs/psy-trance-guide/test.html",
+		"/Users/benfraser/Documents/psy-trance-guide/test.json",
+		"/Users/benfraser/Documents/psy-trance-guide/index.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/learning/completed.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/carers-trust/index.html",
+		"/vagrant/repos/learnmyway/code/web/apps/course/progress/progress.controller.js",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_includes/subject-list.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/learning/index.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_includes/subject-list-in-progress.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_subjects/finding-job-online.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_courses/delivering-health-information-online.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_includes/my-learning-nav.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_subjects/online-basics.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_data/content-config.yml",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_includes/header.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites_build/_temporary/learnmyway.com/_theme/js/course-navigation.js",
+		"/vagrant/repos/learnmyway/code/web/apps/cag/learner/cag.learner.controller.js",
+		"/vagrant/repos/learnmyway/code/web/apps/cag/learner/cag-learner.html",
+		"/vagrant/repos/learnmyway/code/web/apps/managelearners/learner.controller.js",
+		"/vagrant/repos/learnmyway/code/web/apps/managelearners/states.js",
+		"/vagrant/repos/learnmyway/code/web/apps/managelearners/learner-uln.view.html",
+		"/vagrant/repos/learnmyway/code/web/apps/managelearners/learner-uln.controller.js",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_theme/js/course-navigation.js",
+		"/vagrant/repos/learnmyway/code/web/apps/manage-network/dashboard/dashboard.controller.js",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_theme/scss/_lmw.scss",
+		"/vagrant/repos/learnmyway/shared/courses/staying-safe-in-your-digital-world/course/en/articles.json",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/carers-money.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/money-expert-yac.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_data/carers-trust-config.yml",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/mas-yac.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/learnmyway-health.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/prospects-careers.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/learnmyway-money.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/learnmyway-uc.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/learnmyway-work.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/nhs-yac.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/ct-assess.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/learnmyway-uc",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites_build/_temporary/learnmyway.com/_resources/carers-money.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/lmw-work.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/lmw-health.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_resources/money-saving-expert-free-antivirus-software.md",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/tutor/index.html",
+		"/vagrant/repos/learnmyway/code/web/jekyll/sites/_master/_theme/scss/lmw-master.scss"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "digital-service-mapping.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

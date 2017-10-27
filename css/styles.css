@@ -1,0 +1,4017 @@
+@import "styles.3.css";
+@import "styles.2.css";
+@import "styles.1.css";
+
+.button-primary,
+.hide-til-focus {
+  box-shadow: 0 2px #20424f;
+}
+
+.panel__side-label {
+  color: #3e7e97;
+}
+
+.split-panel__title {
+  background: #3e7e97;
+}
+
+.tabs li a,
+.menu--primary--tabbed li a,
+.tabs .primary li a,
+.menu--primary--tabbed .primary li a {
+  color: #3e7e97;
+}
+
+.checks > li:before {
+  color: #3e7e97;
+}
+
+.table-search__cell .icon,
+.table-search__cell .button-play:after,
+.table-search__cell .collapsible-panel__title:before,
+.table-search__cell .checks > li:before,
+.table-search__cell a.button-list__inner:before,
+.table-search__cell .alert-box:before,
+.table-search__cell .messages:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .table-search__cell a.active-trail:first-child:after,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .table-search__cell a.active:after,
+.table-search__cell .nav--secondary__menu a:before,
+.nav--secondary__menu .table-search__cell a:before,
+.table-search__cell .nav--secondary__menu a:after,
+.nav--secondary__menu .table-search__cell a:after,
+.table-search__cell .nav--secondary__menu a .icon,
+.nav--secondary__menu a .table-search__cell .icon,
+.table-search__cell .nav--tertiary__menu a:before,
+.nav--tertiary__menu .table-search__cell a:before,
+.table-search__cell .nav--tertiary__menu a:after,
+.nav--tertiary__menu .table-search__cell a:after,
+.table-search__cell .nav--tertiary__menu a .icon,
+.nav--tertiary__menu a .table-search__cell .icon,
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .button-play:hover:after .table-search__cell .icon:focus,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .icon:focus,
+.table-search__cell .checks > li:hover:before .table-search__cell .icon:focus,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .alert-box:hover:before .table-search__cell .icon:focus,
+.table-search__cell .messages:hover:before .table-search__cell .icon:focus,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .icon:focus,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .icon:focus,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .icon:focus,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .icon:hover .table-search__cell .button-play:focus:after,
+.table-search__cell .button-play:hover:after .table-search__cell .button-play:focus:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .checks > li:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .button-play:focus:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .alert-box:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .messages:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .button-play:focus:after,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .button-play:focus:after,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .button-play:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .button-play:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .button-play:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .button-play:focus:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .button-play:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .button-play:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .button-play:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .button-play:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .button-play:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .button-play:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .button-play:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .button-play:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .button-play:focus:after,
+.table-search__cell .icon:hover .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .collapsible-panel__title:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .collapsible-panel__title:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .collapsible-panel__title:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .collapsible-panel__title:focus:before,
+.table-search__cell .icon:hover .table-search__cell .checks > li:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .checks > li:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .checks > li:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .checks > li:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .checks > li:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .checks > li:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .checks > li:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .checks > li:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .checks > li:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .checks > li:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .checks > li:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .checks > li:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .checks > li:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .checks > li:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .checks > li:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .checks > li:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .checks > li:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .checks > li:focus:before,
+.table-search__cell .icon:hover .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a.button-list__inner:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a.button-list__inner:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a.button-list__inner:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a.button-list__inner:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a.button-list__inner:focus:before,
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .messages:hover:before .table-search__cell a:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .dropdown a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .dropdown a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .dropdown a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .dropdown a:focus:before,
+.nav--secondary__menu .dropdown a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .dropdown a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .dropdown a:focus:before,
+.nav--secondary__menu .dropdown a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .dropdown a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .dropdown a:focus:before,
+.nav--secondary__menu .dropdown a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu .dropdown a:focus:before,
+.nav--secondary__menu .dropdown .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .icon:hover .table-search__cell .alert-box:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .alert-box:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .alert-box:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .alert-box:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .alert-box:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .alert-box:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .alert-box:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .alert-box:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .alert-box:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .alert-box:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .alert-box:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .alert-box:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .alert-box:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .alert-box:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .alert-box:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .alert-box:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .alert-box:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .alert-box:focus:before,
+.table-search__cell .icon:hover .table-search__cell .messages:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .messages:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .messages:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .messages:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .messages:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .messages:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .messages:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .messages:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .messages:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .messages:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .messages:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .messages:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .messages:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .messages:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .messages:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .messages:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .messages:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .messages:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .messages:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .messages:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .messages:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .messages:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .messages:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .messages:focus:before,
+.table-search__cell .icon:hover .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .icon:hover .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .button-play:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .button-play:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .checks > li:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .checks > li:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .alert-box:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .alert-box:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .messages:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .messages:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a.active-trail:focus:first-child:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a.active-trail:focus:first-child:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .sidebar .menu .menu li a.active-trail:focus:first-child:after,
+.sidebar .menu .menu li .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a.active-trail:focus:first-child:after,
+.table-search__cell .icon:hover .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .icon:hover .table-search__cell a.active:focus:after,
+.table-search__cell .button-play:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .button-play:hover:after .table-search__cell a.active:focus:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .checks > li:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .checks > li:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a.active:focus:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .alert-box:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .alert-box:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .messages:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .messages:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .sidebar .menu .menu li.expanded a.active-trail:hover:first-child:after .table-search__cell li a.active:focus:after,
+.table-search__cell .sidebar .menu .menu li.expanded li a.active-trail:hover:first-child:after .table-search__cell a.active:focus:after,
+.sidebar .menu .menu li.expanded
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a.active:focus:after,
+.table-search__cell .sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a.active:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a.active:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a.active:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a.active:focus:after,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a.active:focus:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a.active:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a.active:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a.active:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a.active:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a.active:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a.active:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a.active:focus:after,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a.active:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a.active:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a.active:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a.active:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a.active:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell
+.sidebar .menu .menu li.expanded li a.active:focus:after,
+.sidebar .menu .menu li.expanded li .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a.active:focus:after,
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .messages:hover:before .table-search__cell a:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:after,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:after,
+.table-search__cell .messages:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .messages:hover:before .table-search__cell a:focus:after,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .button-play:hover:after .table-search__cell .icon:focus,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .icon:focus,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .checks > li:hover:before .table-search__cell .icon:focus,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a .icon:focus,
+.table-search__cell .nav--secondary__menu a .dropdown a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a .icon:focus,
+.nav--secondary__menu a .dropdown
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .alert-box:hover:before .table-search__cell .icon:focus,
+.table-search__cell .messages:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .messages:hover:before .table-search__cell .icon:focus,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .icon:focus,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .icon:focus,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .icon:focus,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a .icon:focus,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a .icon:focus,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a .icon:focus,
+.nav--secondary__menu a .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a a:focus:before,
+.table-search__cell .nav--secondary__menu a .dropdown a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a a:focus:before,
+.nav--secondary__menu a .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .messages:hover:before .table-search__cell a:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a a:focus:before,
+.nav--secondary__menu a .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .icon:hover .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:after,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a a:focus:after,
+.table-search__cell .nav--secondary__menu a .dropdown a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a a:focus:after,
+.nav--secondary__menu a .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:after,
+.table-search__cell .messages:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .messages:hover:before .table-search__cell a:focus:after,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a .nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--secondary__menu a a:focus:after,
+.nav--secondary__menu a .nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu .nav--secondary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .messages:hover:before .table-search__cell a:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:after,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:after,
+.table-search__cell .messages:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .messages:hover:before .table-search__cell a:focus:after,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .button-play:hover:after .table-search__cell .icon:focus,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .icon:focus,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .checks > li:hover:before .table-search__cell .icon:focus,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .alert-box:hover:before .table-search__cell .icon:focus,
+.table-search__cell .messages:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .messages:hover:before .table-search__cell .icon:focus,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .icon:focus,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .icon:focus,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .icon:focus,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a .icon:focus,
+.nav--tertiary__menu a .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a .icon:focus,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a .icon:focus,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell .icon:focus,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell .icon:focus,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell .icon:focus,
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:before,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:before,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:before,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:before,
+.table-search__cell .messages:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .messages:hover:before .table-search__cell a:focus:before,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:before,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:before,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a a:focus:before,
+.nav--tertiary__menu a .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:before,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:before,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:before,
+.table-search__cell .icon:hover .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .button-play:hover:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .button-play:hover:after .table-search__cell a:focus:after,
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .collapsible-panel__title:hover:before .table-search__cell a:focus:after,
+.table-search__cell .checks > li:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .checks > li:hover:before .table-search__cell a:focus:after,
+.table-search__cell a.button-list__inner:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a.button-list__inner:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu .dropdown a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a .nav--secondary__menu .dropdown
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .alert-box:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .alert-box:hover:before .table-search__cell a:focus:after,
+.table-search__cell .messages:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .messages:hover:before .table-search__cell a:focus:after,
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .sidebar .menu .menu li a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a .sidebar .menu .menu li
+.table-search__cell a.active-trail:hover:first-child:after .table-search__cell a:focus:after,
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell
+.sidebar .menu .menu li.expanded li a.active:hover:after .table-search__cell a:focus:after,
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.sidebar .menu .menu li.expanded li
+.table-search__cell a.active:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a .nav--secondary__menu
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .nav--secondary__menu a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell .nav--tertiary__menu a a:focus:after,
+.nav--tertiary__menu a .nav--secondary__menu
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--secondary__menu .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell .nav--secondary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--secondary__menu .nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu .nav--secondary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:before .table-search__cell a a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:before .table-search__cell a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a:hover:after .table-search__cell a a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu
+.table-search__cell a:hover:after .table-search__cell a a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a .icon:hover .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell .icon:hover .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:before .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:before .table-search__cell a:focus:after,
+.table-search__cell .nav--tertiary__menu a a:hover:after .table-search__cell a:focus:after,
+.nav--tertiary__menu a
+.table-search__cell a:hover:after .table-search__cell a:focus:after {
+  color: #3e7e97;
+}
+
+.switch input:checked + label {
+  background: #3e7e97;
+}
+
+/* Header */
+
+.contain-to-grid .title-area .name h1 a {
+  color: #3e7e97;
+}
+
+.contain-to-grid:not(.contain-to-grid--secondary) .top-bar-section li.active:not(.has-form) a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)) {
+  color: #3e7e97;
+}
+
+.contain-to-grid:not(.contain-to-grid--secondary) .top-bar-section ul li:hover:not(.has-form) > a:hover {
+  color: #3e7e97;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)) {
+  color: #3e7e97;
+}
+
+.top-bar-section .account:hover:not(.has-form) > a {
+  color: #3e7e97;
+}
+
+.top-bar .toggle-topbar.menu-icon a:hover {
+  color: #3e7e97;
+}
+
+.expanded .toggle-topbar.menu-icon a {
+  color: #3e7e97;
+}
+
+.search-box__submit:hover {
+  color: #3e7e97;
+}
+
+.contain-to-grid--secondary {
+  /* Hide Tinder icon - show on fixed header (below) */
+}
+
+.contain-to-grid--secondary .title-area .name .icon,
+.contain-to-grid--secondary .title-area .name .button-play:after,
+.contain-to-grid--secondary .title-area .name .collapsible-panel__title:before,
+.contain-to-grid--secondary .title-area .name .checks > li:before,
+.contain-to-grid--secondary .title-area .name a.button-list__inner:before,
+.contain-to-grid--secondary .title-area .name .alert-box:before,
+.contain-to-grid--secondary .title-area .name .messages:before,
+.contain-to-grid--secondary .title-area .name .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .contain-to-grid--secondary .title-area .name a.active-trail:first-child:after,
+.contain-to-grid--secondary .title-area .name
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .contain-to-grid--secondary .title-area .name a.active:after,
+.contain-to-grid--secondary .title-area .name .nav--secondary__menu a:before,
+.nav--secondary__menu .contain-to-grid--secondary .title-area .name a:before,
+.contain-to-grid--secondary .title-area .name .nav--secondary__menu a:after,
+.nav--secondary__menu .contain-to-grid--secondary .title-area .name a:after,
+.contain-to-grid--secondary .title-area .name .nav--tertiary__menu a:before,
+.nav--tertiary__menu .contain-to-grid--secondary .title-area .name a:before,
+.contain-to-grid--secondary .title-area .name .nav--tertiary__menu a:after,
+.nav--tertiary__menu .contain-to-grid--secondary .title-area .name a:after {
+  color: #3e7e97;
+}
+
+.contain-to-grid--secondary .top-bar-section li.active:not(.has-form) a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)),
+.contain-to-grid--secondary .top-bar-section li.active-trail:not(.has-form) a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)) {
+  border-color: #3e7e97;
+}
+
+.contain-to-grid--secondary .top-bar-section li:not(.has-form) a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)):hover {
+  color: #3e7e97;
+}
+
+.tabs--big li:not(.active):not(.active-trail) a:hover,
+.menu--primary--tabbed li:not(.active):not(.active-trail) a:hover,
+.tabs--big li:not(.active):not(.active-trail) a:focus,
+.menu--primary--tabbed li:not(.active):not(.active-trail) a:focus,
+.tabs--big .primary li:not(.active):not(.active-trail) a:hover,
+.menu--primary--tabbed .primary li:not(.active):not(.active-trail) a:hover,
+.tabs--big .primary li:not(.active):not(.active-trail) a:focus,
+.menu--primary--tabbed .primary li:not(.active):not(.active-trail) a:focus {
+  background: #3e7e97;
+  border-top-color: #3e7e97;
+  border-right-color: #3e7e97;
+  border-left-color: #3e7e97;
+}
+
+.menu--primary ul li.active a.active,
+.menu--primary ul li.active a.active-trail,
+.menu--primary ul li.active a,
+.menu--primary ul li.active-trail a.active,
+.menu--primary ul li.active-trail a.active-trail,
+.menu--primary ul li.active-trail a {
+  color: #3e7e97 !important;
+  border-bottom-color: #3e7e97;
+}
+
+.menu--secondary li.active-trail {
+  border-bottom-color: #3e7e97;
+}
+
+.menu--secondary li.active-trail a {
+  color: #3e7e97;
+}
+
+.dropdown-parent:hover > a {
+  color: #3e7e97;
+}
+
+/* Responsive header */
+
+/* Flag object */
+
+.flag__sub-heading {
+  color: #3e7e97;
+}
+
+/* Side nav */
+
+.side-nav li.active a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)),
+.side-nav a:not(.button):not(.hide-til-focus):not(.ia-certs:not(:empty)):hover {
+  color: #3e7e97;
+}
+
+/* Sidebar */
+
+.sidebar .menu a {
+  color: #3e7e97;
+}
+
+.sidebar .menu li a.active-trail:first-child,
+.sidebar .menu li.expanded li a.active {
+  background: #3e7e97;
+}
+
+.sidebar .menu .menu li a.active-trail:first-child,
+.sidebar .menu .menu li.expanded li a.active {
+  color: #3e7e97;
+}
+
+/* Button list */
+
+.button-list li a:not(.tiny):hover,
+.nav--secondary__menu .dropdown li a:not(.tiny):hover {
+  border-color: #3e7e97;
+}
+
+.button-list__icon {
+  background: #3e7e97;
+}
+
+.content-list__item__icon {
+  background: #3e7e97;
+}
+
+.button-list__tag .icon,
+.button-list__tag .button-play:after,
+.button-list__tag .collapsible-panel__title:before,
+.button-list__tag .checks > li:before,
+.button-list__tag a.button-list__inner:before,
+.button-list__tag .alert-box:before,
+.button-list__tag .messages:before,
+.button-list__tag .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .button-list__tag a.active-trail:first-child:after,
+.button-list__tag
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .button-list__tag a.active:after,
+.button-list__tag .nav--secondary__menu a:before,
+.nav--secondary__menu .button-list__tag a:before,
+.button-list__tag .nav--secondary__menu a:after,
+.nav--secondary__menu .button-list__tag a:after,
+.button-list__tag .nav--secondary__menu a .icon,
+.nav--secondary__menu a .button-list__tag .icon,
+.button-list__tag .nav--tertiary__menu a:before,
+.nav--tertiary__menu .button-list__tag a:before,
+.button-list__tag .nav--tertiary__menu a:after,
+.nav--tertiary__menu .button-list__tag a:after,
+.button-list__tag .nav--tertiary__menu a .icon,
+.nav--tertiary__menu a .button-list__tag .icon {
+  color: #3e7e97;
+}
+
+.button-list__link-text,
+.content-list__item__title a,
+.content-list__item__header .read-more a {
+  color: #32667a;
+}
+
+/* Landing pages */
+
+.landing-page__header__icon {
+  background: #3e7e97;
+}
+
+/* Footers */
+
+.footer--nav:not(.footer--nav--lmw) li.leaf:not(:last-child) {
+  border-right-color: #3e7e97;
+}
+
+.footer--nav:not(.footer--nav--lmw) a:hover {
+  color: #3e7e97;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: MuseoSans, Helvetica, Roboto, Arial, sans-serif;
+  text-transform: none;
+  color: #3e7e97;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.75rem;
+}
+
+h6 {
+  font-size: 0.5rem;
+}
+
+@media screen and (max-width: 48.125em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.75rem;
+  }
+
+  h5 {
+    font-size: 0.625rem;
+  }
+
+  h6 {
+    font-size: 0.5rem;
+  }
+}
+
+/* Typography */
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #df1d84;
+}
+
+.help-text {
+  color: #7e3f8f !important;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+/* header and footer accessible links */
+
+.header--primary a.link,
+.footer--nav--lmw a.link {
+  color: #356c81;
+}
+
+.header--primary a.link:hover,
+.footer--nav--lmw a.link:hover {
+  color: #df1d84;
+}
+
+/* Buttons */
+
+button,
+.button,
+.hide-til-focus,
+.ia-certs:not(:empty) {
+  color: #FFFFFF;
+  background: #df1d84;
+  border-color: #df1d84;
+  font-weight: bold;
+}
+
+button:focus,
+button:hover,
+.button:focus,
+.hide-til-focus:focus,
+.ia-certs:focus:not(:empty),
+.button:hover,
+.hide-til-focus:hover,
+.ia-certs:hover:not(:empty) {
+  color: #FFFFFF;
+  background: #b21769;
+  border-color: #b21769;
+}
+
+button:disabled,
+button.disabled,
+button[disabled]:hover,
+.button:disabled,
+.hide-til-focus:disabled,
+.ia-certs:disabled:not(:empty),
+.button.disabled,
+input.button[type=text]:disabled,
+input[type=text].hide-til-focus:disabled,
+input[type=text].ia-certs:disabled:not(:empty),
+input.button[type=password]:disabled,
+input[type=password].hide-til-focus:disabled,
+input[type=password].ia-certs:disabled:not(:empty),
+input.button[type=search]:disabled,
+input[type=search].hide-til-focus:disabled,
+input[type=search].ia-certs:disabled:not(:empty),
+input.button[type=date]:disabled,
+input[type=date].hide-til-focus:disabled,
+input[type=date].ia-certs:disabled:not(:empty),
+input.button[type=email]:disabled,
+input[type=email].hide-til-focus:disabled,
+input[type=email].ia-certs:disabled:not(:empty),
+input.button[type=number]:disabled,
+input[type=number].hide-til-focus:disabled,
+input[type=number].ia-certs:disabled:not(:empty),
+textarea.button:disabled,
+textarea.hide-til-focus:disabled,
+textarea.ia-certs:disabled:not(:empty),
+.disabled.hide-til-focus,
+.disabled.ia-certs:not(:empty),
+.button[disabled]:hover,
+[disabled].hide-til-focus:hover,
+[disabled].ia-certs:hover:not(:empty) {
+  background: #df1d84;
+  border-color: #df1d84;
+}
+
+button a,
+.button a,
+.hide-til-focus a,
+.ia-certs:not(:empty) a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+button .text,
+.button .text,
+.hide-til-focus .text,
+.ia-certs:not(:empty) .text {
+  font-weight: 200;
+  display: block;
+  margin-top: 4px;
+  font-size: 0.875rem;
+}
+
+button .loader--small,
+.button .loader--small,
+.hide-til-focus .loader--small,
+.ia-certs:not(:empty) .loader--small {
+  top: 0;
+  background: linear-gradient(to right, #FFFFFF 10%, rgba(153, 153, 153, 0) 42%);
+}
+
+button .loader--small:before,
+.button .loader--small:before,
+.hide-til-focus .loader--small:before,
+.ia-certs:not(:empty) .loader--small:before {
+  background: #FFFFFF;
+}
+
+button .loader--small:after,
+.button .loader--small:after,
+.hide-til-focus .loader--small:after,
+.ia-certs:not(:empty) .loader--small:after {
+  background: #df1d84;
+}
+
+.button-outline,
+.ia-certs:not(:empty) {
+  color: #b21769;
+  border-color: #b21769;
+}
+
+.button-outline:focus,
+.ia-certs:focus:not(:empty),
+.button-outline:hover,
+.ia-certs:hover:not(:empty) {
+  color: #df1d84;
+  border-color: #df1d84;
+}
+
+.button-outline:disabled,
+.ia-certs:disabled:not(:empty),
+.button-outline.disabled,
+input.button-outline[type=text]:disabled,
+input[type=text].ia-certs:disabled:not(:empty),
+input.button-outline[type=password]:disabled,
+input[type=password].ia-certs:disabled:not(:empty),
+input.button-outline[type=search]:disabled,
+input[type=search].ia-certs:disabled:not(:empty),
+input.button-outline[type=date]:disabled,
+input[type=date].ia-certs:disabled:not(:empty),
+input.button-outline[type=email]:disabled,
+input[type=email].ia-certs:disabled:not(:empty),
+input.button-outline[type=number]:disabled,
+input[type=number].ia-certs:disabled:not(:empty),
+textarea.button-outline:disabled,
+textarea.ia-certs:disabled:not(:empty),
+.disabled.ia-certs:not(:empty),
+.button-outline[disabled]:hover,
+[disabled].ia-certs:hover:not(:empty) {
+  color: #df1d84;
+}
+
+.button.disabled,
+input.button[type=text]:disabled,
+input[type=text].hide-til-focus:disabled,
+input[type=text].ia-certs:disabled:not(:empty),
+input.button[type=password]:disabled,
+input[type=password].hide-til-focus:disabled,
+input[type=password].ia-certs:disabled:not(:empty),
+input.button[type=search]:disabled,
+input[type=search].hide-til-focus:disabled,
+input[type=search].ia-certs:disabled:not(:empty),
+input.button[type=date]:disabled,
+input[type=date].hide-til-focus:disabled,
+input[type=date].ia-certs:disabled:not(:empty),
+input.button[type=email]:disabled,
+input[type=email].hide-til-focus:disabled,
+input[type=email].ia-certs:disabled:not(:empty),
+input.button[type=number]:disabled,
+input[type=number].hide-til-focus:disabled,
+input[type=number].ia-certs:disabled:not(:empty),
+textarea.button:disabled,
+textarea.hide-til-focus:disabled,
+textarea.ia-certs:disabled:not(:empty),
+.disabled.hide-til-focus,
+.disabled.ia-certs:not(:empty),
+.button.disabled:hover,
+input.button[type=text]:hover:disabled,
+input[type=text].hide-til-focus:hover:disabled,
+input[type=text].ia-certs:hover:disabled:not(:empty),
+input.button[type=password]:hover:disabled,
+input[type=password].hide-til-focus:hover:disabled,
+input[type=password].ia-certs:hover:disabled:not(:empty),
+input.button[type=search]:hover:disabled,
+input[type=search].hide-til-focus:hover:disabled,
+input[type=search].ia-certs:hover:disabled:not(:empty),
+input.button[type=date]:hover:disabled,
+input[type=date].hide-til-focus:hover:disabled,
+input[type=date].ia-certs:hover:disabled:not(:empty),
+input.button[type=email]:hover:disabled,
+input[type=email].hide-til-focus:hover:disabled,
+input[type=email].ia-certs:hover:disabled:not(:empty),
+input.button[type=number]:hover:disabled,
+input[type=number].hide-til-focus:hover:disabled,
+input[type=number].ia-certs:hover:disabled:not(:empty),
+textarea.button:hover:disabled,
+textarea.hide-til-focus:hover:disabled,
+textarea.ia-certs:hover:disabled:not(:empty),
+.disabled.hide-til-focus:hover,
+.disabled.ia-certs:hover:not(:empty) {
+  background-color: #df1d84;
+  border-color: #df1d84;
+}
+
+.button-primary,
+.hide-til-focus {
+  box-shadow: 0 2px #85114f;
+}
+
+.button-floating {
+  color: #7e3f8f;
+}
+
+/* Lists */
+
+.button-list__icon {
+  background: #df1d84;
+}
+
+a.button-list__inner,
+.nav--secondary__menu .dropdown a {
+  color: #356c81;
+}
+
+a.button-list__inner:hover,
+.nav--secondary__menu .dropdown a:hover {
+  color: #df1d84;
+}
+
+.button-list a:not(.button.tiny):not(.tiny.hide-til-focus):not(.tiny.ia-certs:not(:empty)),
+.nav--secondary__menu .dropdown a:not(.button.tiny):not(.tiny.hide-til-focus):not(.tiny.ia-certs:not(:empty)) {
+  color: #356c81 !important;
+}
+
+.button-list a:not(.button.tiny):not(.tiny.hide-til-focus):not(.tiny.ia-certs:not(:empty)):hover,
+.nav--secondary__menu .dropdown a:not(.button.tiny):not(.tiny.hide-til-focus):not(.tiny.ia-certs:not(:empty)):hover {
+  color: #df1d84;
+}
+
+.button-list a:not(.button.tiny):not(.tiny.hide-til-focus):not(.tiny.ia-certs:not(:empty)):after,
+.nav--secondary__menu .dropdown a:not(.button.tiny):not(.tiny.hide-til-focus):not(.tiny.ia-certs:not(:empty)):after {
+  color: #df1d84;
+}
+
+.button-list li a:not(.tiny):hover,
+.nav--secondary__menu .dropdown li a:not(.tiny):hover {
+  border-color: #df1d84 !important;
+}
+
+.button-list__tag .icon,
+.button-list__tag .button-play:after,
+.button-list__tag .collapsible-panel__title:before,
+.button-list__tag .checks > li:before,
+.button-list__tag a.button-list__inner:before,
+.button-list__tag .alert-box:before,
+.button-list__tag .messages:before,
+.button-list__tag .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .button-list__tag a.active-trail:first-child:after,
+.button-list__tag
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .button-list__tag a.active:after,
+.button-list__tag .nav--secondary__menu a:before,
+.nav--secondary__menu .button-list__tag a:before,
+.button-list__tag .nav--secondary__menu a:after,
+.nav--secondary__menu .button-list__tag a:after,
+.button-list__tag .nav--secondary__menu a .icon,
+.nav--secondary__menu a .button-list__tag .icon,
+.button-list__tag .nav--tertiary__menu a:before,
+.nav--tertiary__menu .button-list__tag a:before,
+.button-list__tag .nav--tertiary__menu a:after,
+.nav--tertiary__menu .button-list__tag a:after,
+.button-list__tag .nav--tertiary__menu a .icon,
+.nav--tertiary__menu a .button-list__tag .icon {
+  color: #df1d84;
+}
+
+/* Header */
+
+.header--primary {
+  border-top-color: #3e7e97;
+}
+
+.user ul {
+  background: #3e7e97;
+}
+
+.top-message {
+  background: #3e7e97;
+  box-shadow: none;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.top-message .icon,
+.top-message .button-play:after,
+.top-message .collapsible-panel__title:before,
+.top-message .checks > li:before,
+.top-message a.button-list__inner:before,
+.top-message .alert-box:before,
+.top-message .messages:before,
+.top-message .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .top-message a.active-trail:first-child:after,
+.top-message
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .top-message a.active:after,
+.top-message .nav--secondary__menu a:before,
+.nav--secondary__menu .top-message a:before,
+.top-message .nav--secondary__menu a:after,
+.nav--secondary__menu .top-message a:after,
+.top-message .nav--secondary__menu a .icon,
+.nav--secondary__menu a .top-message .icon,
+.top-message .nav--tertiary__menu a:before,
+.nav--tertiary__menu .top-message a:before,
+.top-message .nav--tertiary__menu a:after,
+.nav--tertiary__menu .top-message a:after,
+.top-message .nav--tertiary__menu a .icon,
+.nav--tertiary__menu a .top-message .icon {
+  font-size: 20px;
+  top: 4px;
+  padding-right: 8px;
+  color: #FFFFFF !important;
+}
+
+.top-message a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.top-message a:hover {
+  color: #E5E5E5 !important;
+}
+
+.cookie-statement {
+  background: #3e7e97;
+  box-shadow: none;
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: none;
+  z-index: 999;
+}
+
+.cookie-statement * {
+  color: #FFFFFF;
+}
+
+.cookie-statement a:hover {
+  color: #df1d84 !important;
+}
+
+.cookie-statement p {
+  margin: 0;
+  text-align: center;
+}
+
+.menu--primary ul li.active a.active,
+.menu--primary ul li.active a.active-trail,
+.menu--primary ul li.active a,
+.menu--primary ul li.active-trail a.active,
+.menu--primary ul li.active-trail a.active-trail,
+.menu--primary ul li.active-trail a {
+  color: #58585b !important;
+}
+
+.menu--primary--underlined ul li.active a.active,
+.menu--primary--underlined ul li.active a.active-trail,
+.menu--primary--underlined ul li.active a,
+.menu--primary--underlined ul li.active-trail a.active,
+.menu--primary--underlined ul li.active-trail a.active-trail,
+.menu--primary--underlined ul li.active-trail a {
+  color: #df1d84 !important;
+  border-bottom-color: #df1d84;
+}
+
+.menu--primary .has-button .button-outline,
+.menu--primary .has-button .ia-certs:not(:empty) {
+  border-color: #df1d84 !important;
+  color: #df1d84 !important;
+}
+
+.menu--primary .has-button .button-outline:hover,
+.menu--primary .has-button .ia-certs:hover:not(:empty) {
+  color: #b21769 !important;
+  border-color: #b21769 !important;
+}
+
+/* Hide brand network-specific stuff */
+
+.menu--primary *[has-brand-network] {
+  display: none;
+}
+
+/* Footer */
+
+.footer--nav {
+  background: #E5E5E5;
+}
+
+/* Content */
+
+.site-content {
+  padding-top: 32px;
+  margin-bottom: 64px;
+}
+
+/* Secondary nav */
+
+.nav--secondary {
+  background: #FFFFFF;
+}
+
+.nav--secondary__menu li.active,
+.nav--tertiary__menu li.active {
+  border-bottom-color: #df1d84;
+}
+
+.nav--secondary__menu li.active > a,
+.nav--tertiary__menu li.active > a {
+  color: #df1d84;
+}
+
+.nav--secondary__menu .dropdown-parent:hover > a {
+  color: #df1d84;
+}
+
+/* Front/home page (logged-out) */
+
+.front-banner {
+  position: relative;
+  padding-bottom: 64px;
+}
+
+.front-banner:before,
+.front-banner:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 230px;
+  width: 100%;
+  z-index: -1;
+}
+
+.front-banner:before {
+  background: url("../images/seamless-digital-pattern.png") bottom repeat-x;
+}
+
+.front-banner:after {
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.9) 125%);
+}
+
+#front-banner__img {
+  display: none;
+}
+
+.front-banner__content {
+  padding-right: 64px;
+  padding-bottom: 32px;
+}
+
+.front-banner__content h1 {
+  font-size: 2.5rem;
+}
+
+.front-banner__content p {
+  font-size: 20px;
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
+
+.front-banner--illustration {
+  padding-bottom: 0;
+}
+
+.front-banner--illustration .button-outline,
+.front-banner--illustration .ia-certs:not(:empty) {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.front-banner--illustration:before,
+.front-banner--illustration:after {
+  height: 380px;
+}
+
+.front-banner--illustration:before {
+  background-image: url("../images/digital-bg.png");
+  background-repeat: repeat;
+  background-size: 548px 548px;
+}
+
+.front-banner--illustration:after {
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.01) 275%);
+}
+
+.ctas .button-primary,
+.ctas .hide-til-focus {
+  padding: 12px 16px;
+  margin: 0;
+  width: 100%;
+}
+
+.ctas .button-primary.button-outline,
+.ctas .button-outline.hide-til-focus,
+.ctas .hide-til-focus.ia-certs:not(:empty),
+.ctas .button-primary.ia-certs:not(:empty) {
+  padding: 12px 16px 14px 16px;
+}
+
+.banner-blue {
+  background: #3e7e97;
+  padding: 16px 0;
+  margin: -32px 0 32px 0;
+}
+
+.banner-blue p {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.banner-blue a {
+  color: #FFFFFF;
+}
+
+.banner-blue a:hover {
+  color: #E5E5E5;
+}
+
+.front-subject-list {
+  position: relative;
+}
+
+.front-subject-list h2 {
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+}
+
+.front-subject-list .row {
+  margin-bottom: 32px;
+}
+
+.front-subject-list ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.front-subject-list__item {
+  padding: 0 2px 2px 0;
+  height: 80px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.front-subject-list__item a {
+  position: relative;
+  overflow: hidden;
+  padding-left: 88px;
+  padding-right: 16px;
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: #FFFFFF;
+  text-decoration: none;
+}
+
+.front-subject-list__item a:hover p,
+.front-subject-list__item a:focus p {
+  opacity: 1;
+}
+
+.front-subject-list__item p {
+  transition: all 300ms ease-out;
+  text-decoration: none !important;
+  margin-bottom: 0;
+  color: #333;
+  position: absolute;
+  left: 64px;
+  padding: 4px 108px 4px 24px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #F0F0F0;
+  display: table;
+  opacity: 0;
+}
+
+.front-subject-list__item p .icon,
+.front-subject-list__item p .button-play:after,
+.front-subject-list__item p .collapsible-panel__title:before,
+.front-subject-list__item p .checks > li:before,
+.front-subject-list__item p a.button-list__inner:before,
+.front-subject-list__item p .alert-box:before,
+.front-subject-list__item p .messages:before,
+.front-subject-list__item p .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .front-subject-list__item p a.active-trail:first-child:after,
+.front-subject-list__item p
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .front-subject-list__item p a.active:after,
+.front-subject-list__item p .nav--secondary__menu a:before,
+.nav--secondary__menu .front-subject-list__item p a:before,
+.front-subject-list__item p .nav--secondary__menu a:after,
+.nav--secondary__menu .front-subject-list__item p a:after,
+.front-subject-list__item p .nav--tertiary__menu a:before,
+.nav--tertiary__menu .front-subject-list__item p a:before,
+.front-subject-list__item p .nav--tertiary__menu a:after,
+.nav--tertiary__menu .front-subject-list__item p a:after {
+  font-size: 3rem;
+  height: 48px;
+  font-weight: bold;
+  color: #df1d84;
+  position: absolute;
+  right: 64px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  display: block;
+}
+
+.front-subject-list__item p strong {
+  padding-right: 4px;
+}
+
+.front-subject-list__item p:before,
+.front-subject-list__item p:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #F0F0F0;
+}
+
+.front-subject-list__item p:after {
+  height: 48px;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+.front-subject-list__item p:before {
+  height: 200px;
+  width: 200px;
+  top: 0;
+  left: 100%;
+}
+
+.front-subject-list__content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.front-subject-list__title {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+
+.front-subject-list__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.front-subject-list__img img {
+  width: 64px;
+  height: auto;
+  padding-top: 4px;
+}
+
+.front-subject-list__sub-item:not(:last-child):after {
+  content: '•';
+  padding: 0 8px;
+  color: #666;
+}
+
+.front-subject-list__sub-item a {
+  color: #356c81;
+}
+
+.case-study {
+  position: relative;
+  margin-bottom: -64px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.case-study:before,
+.case-study:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.case-study:before {
+  background: url("../images/seamless-digital-pattern.png") repeat;
+}
+
+.case-study:after {
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.2) 125%);
+}
+
+.case-study .blockquote__content {
+  color: #666;
+}
+
+/* Help others */
+
+.help-others-banner {
+  position: relative;
+  margin-top: -32px;
+  padding-bottom: 24px;
+  padding-top: 32px;
+}
+
+.help-others-banner:before,
+.help-others-banner:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.help-others-banner:before {
+  background-image: url("../images/tutor-bg.png");
+  background-repeat: repeat-x;
+  background-size: 921px 460px;
+  background-position: bottom;
+}
+
+.help-others-banner:after {
+  background: linear-gradient(to right, white 40%, rgba(255, 255, 255, 0) 100%);
+}
+
+.help-others-banner .front-banner__content {
+  padding-top: 32px;
+}
+
+.help-others-banner .front-banner__img {
+  min-width: 300px;
+  height: auto;
+}
+
+#tutor-banner-tutor,
+#tutor-access-info {
+  display: none;
+}
+
+.tutor-icon-list h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #df1d84;
+}
+
+.tutor-icon-list .icon,
+.tutor-icon-list .button-play:after,
+.tutor-icon-list .collapsible-panel__title:before,
+.tutor-icon-list .checks > li:before,
+.tutor-icon-list a.button-list__inner:before,
+.tutor-icon-list .alert-box:before,
+.tutor-icon-list .messages:before,
+.tutor-icon-list .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .tutor-icon-list a.active-trail:first-child:after,
+.tutor-icon-list
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .tutor-icon-list a.active:after,
+.tutor-icon-list .nav--secondary__menu a:before,
+.nav--secondary__menu .tutor-icon-list a:before,
+.tutor-icon-list .nav--secondary__menu a:after,
+.nav--secondary__menu .tutor-icon-list a:after,
+.tutor-icon-list .nav--secondary__menu a .icon,
+.nav--secondary__menu a .tutor-icon-list .icon,
+.tutor-icon-list .nav--tertiary__menu a:before,
+.nav--tertiary__menu .tutor-icon-list a:before,
+.tutor-icon-list .nav--tertiary__menu a:after,
+.nav--tertiary__menu .tutor-icon-list a:after,
+.tutor-icon-list .nav--tertiary__menu a .icon,
+.nav--tertiary__menu a .tutor-icon-list .icon {
+  font-size: 3rem;
+  color: #df1d84;
+}
+
+/* Google Digital Garage */
+
+.google-garage-banner {
+  padding-bottom: 32px !important;
+}
+
+.google-garage-banner .front-banner__content h1 {
+  font-size: 2rem;
+}
+
+.tf-google-logos {
+  max-width: 319.68px;
+}
+
+/* Progress bars */
+
+.progress {
+  background: #f0b37e !important;
+}
+
+.progress-bar.completed {
+  background: #1ac889 !important;
+}
+
+/* Search */
+
+.search-container .icon-search {
+  color: #3e7e97;
+}
+
+/* Subject search */
+
+.subject-search-container {
+  margin-bottom: 32px;
+}
+
+.subject-search-container .subject-search-field-container {
+  position: relative;
+}
+
+.subject-search-container .subject-search {
+  width: 100%;
+  padding: 0 256px 0 40px !important;
+  height: 50px;
+  line-height: 50px;
+}
+
+.subject-search-container .icon-search {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  font-size: 1.5rem;
+  color: #3e7e97;
+  z-index: 50;
+}
+
+.subject-search-container .clear-search {
+  display: none;
+  position: absolute;
+  right: 128px;
+  top: 14px;
+  text-decoration: none;
+  z-index: 51;
+}
+
+.subject-search-container .clear-search .icon,
+.subject-search-container .clear-search .button-play:after,
+.subject-search-container .clear-search .collapsible-panel__title:before,
+.subject-search-container .clear-search .checks > li:before,
+.subject-search-container .clear-search a.button-list__inner:before,
+.subject-search-container .clear-search .alert-box:before,
+.subject-search-container .clear-search .messages:before,
+.subject-search-container .clear-search .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .subject-search-container .clear-search a.active-trail:first-child:after,
+.subject-search-container .clear-search
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .subject-search-container .clear-search a.active:after,
+.subject-search-container .clear-search .nav--secondary__menu a:before,
+.nav--secondary__menu .subject-search-container .clear-search a:before,
+.subject-search-container .clear-search .nav--secondary__menu a:after,
+.nav--secondary__menu .subject-search-container .clear-search a:after,
+.subject-search-container .clear-search .nav--tertiary__menu a:before,
+.nav--tertiary__menu .subject-search-container .clear-search a:before,
+.subject-search-container .clear-search .nav--tertiary__menu a:after,
+.nav--tertiary__menu .subject-search-container .clear-search a:after {
+  top: 1px;
+}
+
+.subject-search-container .search-button {
+  width: 112px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  z-index: 99;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  font-size: 1rem;
+  border-radius: 0 4px 4px 0;
+  box-shadow: none;
+}
+
+.no-results-msg {
+  display: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search-results #search-header {
+  display: none;
+}
+
+.search-results #search-content {
+  opacity: 0;
+}
+
+.search-results #search-results-divider {
+  display: none;
+}
+
+.search-results #no-search-title {
+  display: none;
+}
+
+.search-count {
+  padding-left: 24px;
+}
+
+/* Course landing pages */
+
+.landing-page__count a {
+  color: #356c81;
+}
+
+.landing-page__count a:hover {
+  color: #df1d84;
+}
+
+.course-landing-page .landing-page__header__icon {
+  background: #df1d84;
+  padding-top: 32px;
+}
+
+.course-landing-page .landing-page__img-container {
+  float: right;
+}
+
+.course-landing-page .landing-page__img {
+  width: 200px;
+}
+
+.progress-bar__text {
+  font-size: 1rem;
+}
+
+/* Course launcher */
+
+/* Corrects some things that are inherited from Adapt CSS */
+
+.course-launcher {
+  /* Header corrections */
+  /* Generic */
+  /* Adapt nav */
+  /* Adapt tweaks */
+  /* TalkTalk 'Staying safe in your digital world' course */
+  /* Hide 'Skip to content' button when focused on til focused */
+}
+
+.course-launcher .header--primary [class^="icon-"],
+.course-launcher .header--primary [class*=" icon-"],
+.course-launcher .header--primary .icon,
+.course-launcher .header--primary .button-play:after,
+.course-launcher .header--primary .collapsible-panel__title:before,
+.course-launcher .header--primary .checks > li:before,
+.course-launcher .header--primary a.button-list__inner:before,
+.course-launcher .header--primary .alert-box:before,
+.course-launcher .header--primary .messages:before,
+.course-launcher .header--primary .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li
+.course-launcher .header--primary a.active-trail:first-child:after,
+.course-launcher .header--primary
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li
+.course-launcher .header--primary a.active:after,
+.course-launcher .header--primary .nav--secondary__menu a:before,
+.nav--secondary__menu
+.course-launcher .header--primary a:before,
+.course-launcher .header--primary .nav--secondary__menu a:after,
+.nav--secondary__menu
+.course-launcher .header--primary a:after,
+.course-launcher .header--primary .nav--tertiary__menu a:before,
+.nav--tertiary__menu
+.course-launcher .header--primary a:before,
+.course-launcher .header--primary .nav--tertiary__menu a:after,
+.nav--tertiary__menu
+.course-launcher .header--primary a:after,
+.course-launcher .course-launcher__nav [class^="icon-"],
+.course-launcher .course-launcher__nav [class*=" icon-"],
+.course-launcher .course-launcher__nav .icon,
+.course-launcher .course-launcher__nav .button-play:after,
+.course-launcher .course-launcher__nav .collapsible-panel__title:before,
+.course-launcher .course-launcher__nav .checks > li:before,
+.course-launcher .course-launcher__nav a.button-list__inner:before,
+.course-launcher .course-launcher__nav .alert-box:before,
+.course-launcher .course-launcher__nav .messages:before,
+.course-launcher .course-launcher__nav .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li
+.course-launcher .course-launcher__nav a.active-trail:first-child:after,
+.course-launcher .course-launcher__nav
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li
+.course-launcher .course-launcher__nav a.active:after,
+.course-launcher .course-launcher__nav .nav--secondary__menu a:before,
+.nav--secondary__menu
+.course-launcher .course-launcher__nav a:before,
+.course-launcher .course-launcher__nav .nav--secondary__menu a:after,
+.nav--secondary__menu
+.course-launcher .course-launcher__nav a:after,
+.course-launcher .course-launcher__nav .nav--tertiary__menu a:before,
+.nav--tertiary__menu
+.course-launcher .course-launcher__nav a:before,
+.course-launcher .course-launcher__nav .nav--tertiary__menu a:after,
+.nav--tertiary__menu
+.course-launcher .course-launcher__nav a:after {
+  font-family: 'icomoon' !important;
+  display: inline !important;
+}
+
+.course-launcher .user li {
+  margin-left: 0;
+}
+
+.course-launcher a .icon,
+.course-launcher a .button-play:after,
+.course-launcher a .collapsible-panel__title:before,
+.course-launcher a .checks > li:before,
+.course-launcher a a.button-list__inner:before,
+.course-launcher a .alert-box:before,
+.course-launcher a .messages:before,
+.course-launcher a .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .course-launcher a a.active-trail:first-child:after,
+.course-launcher a
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .course-launcher a a.active:after,
+.course-launcher a .nav--secondary__menu a:before,
+.course-launcher a .nav--secondary__menu a:after,
+.course-launcher .nav--secondary__menu a a:before,
+.nav--secondary__menu .course-launcher a a:before,
+.course-launcher .nav--secondary__menu a a:after,
+.nav--secondary__menu .course-launcher a a:after,
+.course-launcher a .nav--tertiary__menu a:before,
+.course-launcher a .nav--tertiary__menu a:after,
+.course-launcher .nav--tertiary__menu a a:before,
+.nav--tertiary__menu .course-launcher a a:before,
+.course-launcher .nav--tertiary__menu a a:after,
+.nav--tertiary__menu .course-launcher a a:after {
+  color: #3e7e97;
+}
+
+.course-launcher a:hover .icon,
+.course-launcher a:hover .button-play:after,
+.course-launcher a:hover .collapsible-panel__title:before,
+.course-launcher a:hover .checks > li:before,
+.course-launcher a:hover a.button-list__inner:before,
+.course-launcher a:hover .alert-box:before,
+.course-launcher a:hover .messages:before,
+.course-launcher a:hover .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .course-launcher a:hover a.active-trail:first-child:after,
+.course-launcher a:hover
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .course-launcher a:hover a.active:after,
+.course-launcher a:hover .nav--secondary__menu a:before,
+.course-launcher a:hover .nav--secondary__menu a:after,
+.course-launcher .nav--secondary__menu a:hover a:before,
+.nav--secondary__menu .course-launcher a:hover a:before,
+.course-launcher .nav--secondary__menu a:hover a:after,
+.nav--secondary__menu .course-launcher a:hover a:after,
+.course-launcher a:hover .nav--tertiary__menu a:before,
+.course-launcher a:hover .nav--tertiary__menu a:after,
+.course-launcher .nav--tertiary__menu a:hover a:before,
+.nav--tertiary__menu .course-launcher a:hover a:before,
+.course-launcher .nav--tertiary__menu a:hover a:after,
+.nav--tertiary__menu .course-launcher a:hover a:after {
+  color: #df1d84;
+}
+
+.course-launcher .site-content {
+  padding-top: 0;
+}
+
+.course-launcher #wrapper {
+  padding: 0;
+  margin: -77px 0 -70px 0;
+}
+
+.course-launcher .navigation {
+  position: relative;
+  background: transparent;
+  z-index: 999;
+}
+
+.course-launcher .navigation.is-sticky {
+  position: fixed;
+}
+
+.course-launcher .navigation-back-button {
+  display: none;
+}
+
+.course-launcher .page-level-progress-navigation {
+  padding-right: 0 !important;
+  /* Stop the topic pogression bar opening side-nav */
+  pointer-events: none;
+}
+
+.course-launcher .block.visibility-hidden .block-inner {
+  padding: 0 !important;
+}
+
+.course-launcher .photostory-item-next-button {
+  color: #FFFFFF !important;
+}
+
+.course-launcher .photostory-item-next-button .icon,
+.course-launcher .photostory-item-next-button .button-play:after,
+.course-launcher .photostory-item-next-button .collapsible-panel__title:before,
+.course-launcher .photostory-item-next-button .checks > li:before,
+.course-launcher .photostory-item-next-button a.button-list__inner:before,
+.course-launcher .photostory-item-next-button .alert-box:before,
+.course-launcher .photostory-item-next-button .messages:before,
+.course-launcher .photostory-item-next-button .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .course-launcher .photostory-item-next-button a.active-trail:first-child:after,
+.course-launcher .photostory-item-next-button
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .course-launcher .photostory-item-next-button a.active:after,
+.course-launcher .photostory-item-next-button .nav--secondary__menu a:before,
+.nav--secondary__menu .course-launcher .photostory-item-next-button a:before,
+.course-launcher .photostory-item-next-button .nav--secondary__menu a:after,
+.nav--secondary__menu .course-launcher .photostory-item-next-button a:after,
+.course-launcher .photostory-item-next-button .nav--tertiary__menu a:before,
+.nav--tertiary__menu .course-launcher .photostory-item-next-button a:before,
+.course-launcher .photostory-item-next-button .nav--tertiary__menu a:after,
+.nav--tertiary__menu .course-launcher .photostory-item-next-button a:after {
+  color: #FFFFFF !important;
+}
+
+.course-launcher .mcq-widget.disabled,
+.course-launcher input.mcq-widget[type=text]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled {
+  opacity: 1;
+}
+
+.course-launcher .mcq-widget.disabled .disabled,
+.course-launcher input.mcq-widget[type=text]:disabled .disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled .disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled .disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled .disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled .disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled .disabled,
+.course-launcher
+textarea.mcq-widget:disabled .disabled,
+.course-launcher .mcq-widget.disabled input[type=text]:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled input[type=text]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled input[type=text]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled input[type=text]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled input[type=text]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled input[type=text]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled input[type=text]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled input[type=text]:disabled,
+.course-launcher .mcq-widget.disabled
+input[type=password]:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled
+input[type=password]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled
+input[type=password]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled
+input[type=password]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled
+input[type=password]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled
+input[type=password]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled
+input[type=password]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled
+input[type=password]:disabled,
+.course-launcher .mcq-widget.disabled
+input[type=search]:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled
+input[type=search]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled
+input[type=search]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled
+input[type=search]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled
+input[type=search]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled
+input[type=search]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled
+input[type=search]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled
+input[type=search]:disabled,
+.course-launcher .mcq-widget.disabled
+input[type=date]:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled
+input[type=date]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled
+input[type=date]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled
+input[type=date]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled
+input[type=date]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled
+input[type=date]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled
+input[type=date]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled
+input[type=date]:disabled,
+.course-launcher .mcq-widget.disabled
+input[type=email]:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled
+input[type=email]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled
+input[type=email]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled
+input[type=email]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled
+input[type=email]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled
+input[type=email]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled
+input[type=email]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled
+input[type=email]:disabled,
+.course-launcher .mcq-widget.disabled
+input[type=number]:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled
+input[type=number]:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled
+input[type=number]:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled
+input[type=number]:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled
+input[type=number]:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled
+input[type=number]:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled
+input[type=number]:disabled,
+.course-launcher
+textarea.mcq-widget:disabled
+input[type=number]:disabled,
+.course-launcher .mcq-widget.disabled
+textarea:disabled,
+.course-launcher input.mcq-widget[type=text]:disabled
+textarea:disabled,
+.course-launcher
+input.mcq-widget[type=password]:disabled
+textarea:disabled,
+.course-launcher
+input.mcq-widget[type=search]:disabled
+textarea:disabled,
+.course-launcher
+input.mcq-widget[type=date]:disabled
+textarea:disabled,
+.course-launcher
+input.mcq-widget[type=email]:disabled
+textarea:disabled,
+.course-launcher
+input.mcq-widget[type=number]:disabled
+textarea:disabled,
+.course-launcher
+textarea.mcq-widget:disabled
+textarea:disabled {
+  opacity: 1;
+}
+
+.course-launcher .mcq-item-icon.checkbox:before {
+  position: relative;
+  top: -9px;
+  font-size: 24px;
+  left: -2px;
+}
+
+.course-launcher .hotgraphic-component .hotgraphic-graphic-pin {
+  width: 56px;
+  height: 56px;
+}
+
+.course-launcher .hotgraphic-component .hotgraphic-graphic-pin-icon {
+  margin: 0 auto;
+}
+
+.course-launcher .hotgraphic-component .hotgraphic-graphic-pin .hotgraphic-graphic-pin-icon:before {
+  position: relative;
+  left: -10px;
+  top: -7px;
+}
+
+.course-launcher .hotgraphic-component .hotgraphic-popup {
+  top: -75px;
+}
+
+.course-launcher .notify .notify-popup {
+  z-index: 1001;
+}
+
+.course-launcher .notify .notify-popup-done {
+  margin: 10px;
+}
+
+.course-launcher .notify .notify-popup-inner {
+  padding: 50px 20px 30px;
+}
+
+.course-launcher #wrapper .navigation {
+  box-shadow: none;
+}
+
+.course-launcher button,
+.course-launcher .button,
+.course-launcher .hide-til-focus,
+.course-launcher .ia-certs:not(:empty) {
+  padding: 10px 16px !important;
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+  min-height: 0 !important;
+}
+
+.course-launcher .hide-til-focus {
+  display: none;
+}
+
+.course-launcher .hide-til-focus:focus {
+  height: 1px;
+  width: 1px;
+  clip: rect(1px 1px 1px 1px);
+  /* For IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Course header */
+
+.course-launcher__nav {
+  border-bottom: 1px solid #CCC;
+  background: #FFFFFF;
+  padding: 24px 0 24px 0;
+  position: relative;
+}
+
+.course-launcher__nav .nav--back {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+}
+
+.course-launcher__nav [class^="icon-"],
+.course-launcher__nav [class*=" icon-"],
+.course-launcher__nav .icon,
+.course-launcher__nav .button-play:after,
+.course-launcher__nav .collapsible-panel__title:before,
+.course-launcher__nav .checks > li:before,
+.course-launcher__nav a.button-list__inner:before,
+.course-launcher__nav .alert-box:before,
+.course-launcher__nav .messages:before,
+.course-launcher__nav .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li
+.course-launcher__nav a.active-trail:first-child:after,
+.course-launcher__nav
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li
+.course-launcher__nav a.active:after,
+.course-launcher__nav .nav--secondary__menu a:before,
+.nav--secondary__menu
+.course-launcher__nav a:before,
+.course-launcher__nav .nav--secondary__menu a:after,
+.nav--secondary__menu
+.course-launcher__nav a:after,
+.course-launcher__nav .nav--secondary__menu a .icon,
+.nav--secondary__menu a
+.course-launcher__nav .icon,
+.course-launcher__nav .nav--tertiary__menu a:before,
+.nav--tertiary__menu
+.course-launcher__nav a:before,
+.course-launcher__nav .nav--tertiary__menu a:after,
+.nav--tertiary__menu
+.course-launcher__nav a:after,
+.course-launcher__nav .nav--tertiary__menu a .icon,
+.nav--tertiary__menu a
+.course-launcher__nav .icon {
+  font-family: 'icomoon' !important;
+}
+
+.course-launcher__nav.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Learner homepage / In progress */
+
+.survey-alert {
+  margin-bottom: 32px;
+  display: none;
+}
+
+/* Registration form */
+
+.register-form-left {
+  padding-right: 48px;
+  border-right: 1px solid #E5E5E5;
+}
+
+.register-form-right {
+  padding: 16px 0 0 16px;
+}
+
+/* Initial assessment certificates */
+
+.ia-certs:not(:empty) {
+  display: inline-block;
+  width: auto !important;
+  min-width: 256px;
+  margin: 8px 0 16px 0;
+  color: #df1d84 !important;
+}
+
+.ia-certs:not(:empty) a {
+  color: #df1d84 !important;
+}
+
+/* Learner management/mgmt */
+
+.learner-mgmt .inline-list li.active a {
+  color: #df1d84;
+  text-decoration: none;
+}
+
+.learner-mgmt .group-drop-down {
+  height: 48px;
+  margin-bottom: 32px;
+  display: block;
+  width: 100%;
+}
+
+.learner-mgmt .stripe {
+  padding: 16px;
+}
+
+.learner-mgmt .stripe:first-child {
+  padding-top: 0;
+}
+
+.learner-mgmt .form--large .button-list label,
+.learner-mgmt .form--large .nav--secondary__menu .dropdown label,
+.nav--secondary__menu .learner-mgmt .form--large .dropdown label {
+  font-size: 1rem;
+}
+
+.learner-mgmt .terms-box {
+  margin: 32px 0;
+}
+
+.learner-mgmt .terms-box:before {
+  content: none;
+}
+
+.learner-mgmt .terms-box label {
+  display: table;
+}
+
+.learner-mgmt .terms-box input,
+.learner-mgmt .terms-box span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.learner-mgmt .captureit-skill-btn {
+  min-width: 150px;
+}
+
+.learner-mgmt .skill-header {
+  background: #E5E5E5;
+  margin: 0 0 2px 0;
+}
+
+.learner-mgmt .button-list__tag .button .icon,
+.learner-mgmt .button-list__tag .hide-til-focus .icon,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .icon,
+.learner-mgmt .button-list__tag .button .button-play:after,
+.learner-mgmt .button-list__tag .hide-til-focus .button-play:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .button-play:after,
+.learner-mgmt .button-list__tag .button .collapsible-panel__title:before,
+.learner-mgmt .button-list__tag .hide-til-focus .collapsible-panel__title:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .collapsible-panel__title:before,
+.learner-mgmt .button-list__tag .button .checks > li:before,
+.learner-mgmt .button-list__tag .hide-til-focus .checks > li:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .checks > li:before,
+.learner-mgmt .button-list__tag .button a.button-list__inner:before,
+.learner-mgmt .button-list__tag .hide-til-focus a.button-list__inner:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) a.button-list__inner:before,
+.learner-mgmt .button-list__tag .button .alert-box:before,
+.learner-mgmt .button-list__tag .hide-til-focus .alert-box:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .alert-box:before,
+.learner-mgmt .button-list__tag .button .messages:before,
+.learner-mgmt .button-list__tag .hide-til-focus .messages:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .messages:before,
+.learner-mgmt .button-list__tag .button .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .learner-mgmt .button-list__tag .button a.active-trail:first-child:after,
+.learner-mgmt .button-list__tag .hide-til-focus .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .learner-mgmt .button-list__tag .hide-til-focus a.active-trail:first-child:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .learner-mgmt .button-list__tag .ia-certs:not(:empty) a.active-trail:first-child:after,
+.learner-mgmt .button-list__tag .button
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .learner-mgmt .button-list__tag .button a.active:after,
+.learner-mgmt .button-list__tag .hide-til-focus
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .learner-mgmt .button-list__tag .hide-til-focus a.active:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty)
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .learner-mgmt .button-list__tag .ia-certs:not(:empty) a.active:after,
+.learner-mgmt .button-list__tag .button .nav--secondary__menu a:before,
+.nav--secondary__menu .learner-mgmt .button-list__tag .button a:before,
+.learner-mgmt .button-list__tag .hide-til-focus .nav--secondary__menu a:before,
+.nav--secondary__menu .learner-mgmt .button-list__tag .hide-til-focus a:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--secondary__menu a:before,
+.nav--secondary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:before,
+.learner-mgmt .button-list__tag .button .nav--secondary__menu a:after,
+.nav--secondary__menu .learner-mgmt .button-list__tag .button a:after,
+.learner-mgmt .button-list__tag .hide-til-focus .nav--secondary__menu a:after,
+.nav--secondary__menu .learner-mgmt .button-list__tag .hide-til-focus a:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--secondary__menu a:after,
+.nav--secondary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:after,
+.learner-mgmt .button-list__tag .button .nav--tertiary__menu a:before,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .button a:before,
+.learner-mgmt .button-list__tag .hide-til-focus .nav--tertiary__menu a:before,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .hide-til-focus a:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--tertiary__menu a:before,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:before,
+.learner-mgmt .button-list__tag .button .nav--tertiary__menu a:after,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .button a:after,
+.learner-mgmt .button-list__tag .hide-til-focus .nav--tertiary__menu a:after,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .hide-til-focus a:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--tertiary__menu a:after,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:after {
+  padding-left: 0;
+  color: #FFFFFF;
+}
+
+.learner-mgmt .button-list__tag .button-outline .icon,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .icon,
+.learner-mgmt .button-list__tag .button-outline .button-play:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .button-play:after,
+.learner-mgmt .button-list__tag .button-outline .collapsible-panel__title:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .collapsible-panel__title:before,
+.learner-mgmt .button-list__tag .button-outline .checks > li:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .checks > li:before,
+.learner-mgmt .button-list__tag .button-outline a.button-list__inner:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) a.button-list__inner:before,
+.learner-mgmt .button-list__tag .button-outline .alert-box:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .alert-box:before,
+.learner-mgmt .button-list__tag .button-outline .messages:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .messages:before,
+.learner-mgmt .button-list__tag .button-outline .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .learner-mgmt .button-list__tag .button-outline a.active-trail:first-child:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .sidebar .menu .menu li a.active-trail:first-child:after,
+.sidebar .menu .menu li .learner-mgmt .button-list__tag .ia-certs:not(:empty) a.active-trail:first-child:after,
+.learner-mgmt .button-list__tag .button-outline
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .learner-mgmt .button-list__tag .button-outline a.active:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty)
+.sidebar .menu .menu li.expanded li a.active:after,
+.sidebar .menu .menu li.expanded li .learner-mgmt .button-list__tag .ia-certs:not(:empty) a.active:after,
+.learner-mgmt .button-list__tag .button-outline .nav--secondary__menu a:before,
+.nav--secondary__menu .learner-mgmt .button-list__tag .button-outline a:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--secondary__menu a:before,
+.nav--secondary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:before,
+.learner-mgmt .button-list__tag .button-outline .nav--secondary__menu a:after,
+.nav--secondary__menu .learner-mgmt .button-list__tag .button-outline a:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--secondary__menu a:after,
+.nav--secondary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:after,
+.learner-mgmt .button-list__tag .button-outline .nav--tertiary__menu a:before,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .button-outline a:before,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--tertiary__menu a:before,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:before,
+.learner-mgmt .button-list__tag .button-outline .nav--tertiary__menu a:after,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .button-outline a:after,
+.learner-mgmt .button-list__tag .ia-certs:not(:empty) .nav--tertiary__menu a:after,
+.nav--tertiary__menu .learner-mgmt .button-list__tag .ia-certs:not(:empty) a:after {
+  padding-left: 0;
+  color: #df1d84;
+}
+
+.learner-mgmt .activity-button-list li {
+  overflow: visible;
+}
+
+.learner-mgmt .demographics-btn {
+  margin-right: 32px;
+}
+
+.learner-mgmt .reboot-btn {
+  margin-right: 0;
+  min-width: 250px;
+}
+
+.learner-mgmt .reboot-btn.button-outline,
+.learner-mgmt .reboot-btn.ia-certs:not(:empty) {
+  top: -6px;
+}
+
+.learner-mgmt .include-it-btn {
+  margin-top: 4px;
+}
+
+/* Include-it Mersey / BBO */
+
+.include-it textarea {
+  min-height: 130px;
+}
+
+.include-it .parent-list {
+  background: #E5E5E5;
+}
+
+.include-it .goal-planned-date {
+  min-width: 160px;
+  display: inline-block;
+}
+
+.include-it .goal-achieved {
+  min-width: 220px;
+  display: inline-block;
+}
+
+.include-it .date-picker input {
+  width: 100px;
+}
+
+.include-it .personal-goals-cat .button-list,
+.include-it .personal-goals-cat .nav--secondary__menu .dropdown,
+.nav--secondary__menu .include-it .personal-goals-cat .dropdown {
+  margin-bottom: 0;
+}
+
+.manage-network .equal-heading {
+  min-height: 64px;
+  margin-bottom: 16px;
+}
+
+.manage-network .equal-heading__content {
+  position: relative;
+  top: 32px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+.manage-network .equal-button-group-widths {
+  min-width: 200px;
+}
+
+.manage-network .button-group .button,
+.manage-network .button-group .hide-til-focus,
+.manage-network .button-group .ia-certs:not(:empty) {
+  min-width: 160px;
+}
+
+@media screen and (min-width: 60em) {
+  .date-range-dropdown {
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+/* Include-it Mersey / BBO */
+
+.mi-app .group-drop-down {
+  height: 48px;
+  margin-bottom: 32px;
+  display: block;
+  width: 100%;
+}
+
+.mi-app .multiSelect .helperButton {
+  line-height: 0;
+}
+
+.mi-app .multiSelect .button,
+.mi-app .multiSelect .hide-til-focus,
+.mi-app .multiSelect .ia-certs:not(:empty) {
+  width: 100%;
+}
+
+@media screen and (min-width: 60em) {
+  .include-it-btn {
+    min-width: 220px;
+  }
+
+  .include-it-btn--full-height {
+    height: 100px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+}
+
+/* Responsive */
+
+@media screen and (max-width: 48.125em) {
+  /* Navigation */
+
+  .nav--primary .menu--primary {
+    /* Hide 'Get others online' link */
+  }
+
+  .nav--primary .menu--primary li:last-child {
+    display: none;
+  }
+
+  /* Navigation for tutors */
+
+  .lmw-user-tutor .nav--primary li:last-child {
+    display: table-cell;
+  }
+
+  .lmw-user-tutor .nav--primary li a {
+    padding: 8px;
+    height: 60px;
+  }
+
+  /* Content */
+
+  .site-content {
+    padding-top: 16px;
+  }
+
+  /* Front page */
+
+  .front-banner {
+    padding-bottom: 32px;
+  }
+
+  .front-banner__img {
+    width: 50%;
+  }
+
+  .front-banner--illustration {
+    padding-bottom: 0;
+  }
+
+  .front-banner__content {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .front-banner__content .button,
+  .front-banner__content .hide-til-focus,
+  .front-banner__content .ia-certs:not(:empty) {
+    margin: 0 0 16px 0 !important;
+  }
+
+  .front-banner__content h3 {
+    font-size: 1.25rem;
+  }
+
+  .popular-courses {
+    padding-left: 32px;
+  }
+
+  .popular-courses h2 {
+    margin: 8px 0;
+  }
+
+  .front-subject-list__img img {
+    padding-top: 20px;
+  }
+
+  /* Help others */
+
+  .tutor-icon-list .columns {
+    margin-bottom: 32px;
+  }
+
+  .tutor-icon-list hr {
+    margin-top: 0;
+  }
+
+  /* Help others */
+
+  .help-others-banner:after {
+    background: none;
+  }
+
+  /* Course launcher / Adapt */
+
+  .course-launcher .navigation-inner {
+    display: none;
+  }
+
+  /* Registration form */
+
+  .register-form-left {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .register-form-right {
+    padding-left: 0;
+    padding-top: 32px;
+    margin-top: 32px;
+    border-top: 1px solid #E5E5E5;
+  }
+
+  .registration-confirmation-msg .edit-link {
+    float: none !important;
+    display: block;
+    margin-top: 4px;
+  }
+
+  /* Learner mgmt */
+
+  .include-it .help-text {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 31.25em) {
+  .package-panel .description {
+    display: none;
+  }
+
+  .package-panel .actions {
+    margin-top: 8px;
+  }
+
+  /* Front page */
+
+  .front-subject-list h2 {
+    font-size: 1.5rem;
+  }
+
+  .front-subject-list__content {
+    font-size: 0.875rem;
+  }
+
+  .front-subject-list__item {
+    height: 112px;
+  }
+
+  .case-study .crop-circle {
+    border-radius: 0;
+    margin: -32px -4% 16px;
+    overflow: visible;
+  }
+
+  .case-study .crop-circle img {
+    width: 109%;
+    max-width: none;
+    height: auto;
+  }
+
+  /* Help others */
+
+  .help-others-banner h1 {
+    font-size: 32px;
+  }
+
+  /* Learner mgmt */
+
+  .learner-mgmt .main-title {
+    display: none;
+  }
+
+  .learner-mgmt .manage-this-group-button-cont {
+    margin-top: 16px;
+  }
+
+  .learner-mgmt .dropdown-parent .icon,
+  .learner-mgmt .dropdown-parent .button-play:after,
+  .learner-mgmt .dropdown-parent .collapsible-panel__title:before,
+  .learner-mgmt .dropdown-parent .checks > li:before,
+  .learner-mgmt .dropdown-parent a.button-list__inner:before,
+  .learner-mgmt .dropdown-parent .alert-box:before,
+  .learner-mgmt .dropdown-parent .messages:before,
+  .learner-mgmt .dropdown-parent .sidebar .menu .menu li a.active-trail:first-child:after,
+  .sidebar .menu .menu li .learner-mgmt .dropdown-parent a.active-trail:first-child:after,
+  .learner-mgmt .dropdown-parent
+  .sidebar .menu .menu li.expanded li a.active:after,
+  .sidebar .menu .menu li.expanded li .learner-mgmt .dropdown-parent a.active:after,
+  .learner-mgmt .dropdown-parent .nav--secondary__menu a:before,
+  .nav--secondary__menu .learner-mgmt .dropdown-parent a:before,
+  .learner-mgmt .dropdown-parent .nav--secondary__menu a:after,
+  .nav--secondary__menu .learner-mgmt .dropdown-parent a:after,
+  .learner-mgmt .dropdown-parent .nav--tertiary__menu a:before,
+  .nav--tertiary__menu .learner-mgmt .dropdown-parent a:before,
+  .learner-mgmt .dropdown-parent .nav--tertiary__menu a:after,
+  .nav--tertiary__menu .learner-mgmt .dropdown-parent a:after {
+    display: none;
+  }
+
+  .include-it .radio-or-indicator {
+    display: block !important;
+    float: none !important;
+    margin: 8px 0 !important;
+    width: 100% !important;
+  }
+}
+
+/**
+ * Print styles
+ */
+
+@media print {
+  /* Show stuff  */
+
+  /* Hide stuff */
+
+  .header--primary,
+  .nav--secondary,
+  .footer--nav {
+    display: none;
+  }
+
+  .site-content {
+    padding-top: 0;
+  }
+
+  /* Certificate page */
+
+  .completed-learning {
+    border: 2px solid #3e7e97;
+    padding: 16px 0;
+    border-radius: 8px;
+    min-height: 1000px;
+  }
+
+  .completed-learning a[href]:after {
+    content: '' !important;
+  }
+
+  .completed-learning .content-list__item__header {
+    background: whitesmoke !important;
+    -webkit-print-color-adjust: exact;
+    padding: 8px 16px 8px 144px;
+    min-height: 176px;
+  }
+
+  .completed-learning .content-list__item__header h1 {
+    margin-bottom: 8px;
+  }
+
+  .completed-learning .content-list__item__header p {
+    font-size: 0.75rem;
+  }
+
+  .completed-learning .content-list__item__header p.margin-bottom--small {
+    margin-bottom: 4px !important;
+  }
+
+  .completed-learning .content-list__item__title {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .completed-learning .content-list__item__icon {
+    -webkit-print-color-adjust: exact;
+  }
+
+  .completed-learning a {
+    text-decoration: none !important;
+  }
+
+  .completed-learning .signature-box .large-6 {
+    width: 50%;
+  }
+
+  .completed-learning .front-subject-list__sub-item {
+    font-weight: bold;
+  }
+}
+
+/* Override this file in custom sites to add custom styling */
