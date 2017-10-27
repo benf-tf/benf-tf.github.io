@@ -49,6 +49,7 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
       setDataFormat();
       setSankey();
       $('#sankey svg').attr('height', '2400');
+      $('#sankey svg').css('height', '2400px !important');
     });
 
     // Filter data
