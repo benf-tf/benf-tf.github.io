@@ -130,7 +130,6 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
           structuredDataByKey[$scope.columnHeadings[k]][l-1] = values[k];
         }
       }
-      console.log(structuredDataByKey);
     }
 
     // Set visualisation data stack
@@ -139,10 +138,8 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
       for(var m = 0; m < $scope.columnHeadings.length; m++) {
         var array = structuredDataByKey[$scope.columnHeadings[m]];
         $scope.deDupArrays[m] = _.uniq(array);
-        //console.log($scope.deDupArrays[m]);
         sankey.stack(m, $scope.deDupArrays[m]);
       }
-      console.log($scope.deDupArrays);
     }
 
     // Set array in correct format for visualisation 
@@ -153,7 +150,6 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
           setDataArray[o + ($scope.structuredDataByLine.length * n)] = [ $scope.structuredDataByLine[o][$scope.columnHeadings[n]], defaultLineWeight, $scope.structuredDataByLine[o][$scope.columnHeadings[n + 1]] ];
         }
       }
-      console.log(setDataArray);
     }
 
 }]);
