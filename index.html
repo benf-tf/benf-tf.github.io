@@ -11,15 +11,41 @@
     <script src="js/app.js" type="text/javascript"></script>    
 		<link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <meta name="robots" content="noindex">
   </head>
   
   <body ng-app="digitalServicesMapping" ng-controller="digitalServicesMappingCtrl" ng-cloak>
     <div class="padding-top padding-left padding-right">
-      <h1 class="align-center">Good Things Foundation digital services mapping</h1>
+      <h1>Good Things Foundation mapping app</h1>
+      <h2> {{ param }} </h2>
       <hr>
-      <div class="row">
+      <form name="submitSheetForm" class="form--large" ng-submit="getSheet(sheetId)" novalidate>
+        <label for="sheetId">Spreadsheet ID</label>
+        <p>In Google Spreadsheet: File > Publish to web > 'Entire Document' as 'Web page' > CLick publish and grab the unique ID in the URL.</p>
+        <p>eg. https://docs.google.com/spreadsheets/d/e/<strong>.2PACX-1vTBpn1SGb07pajD6kdpznEG6p3weD5ZUukT_wNefBREEx-8d5r03x_H_Jsh2nra-isRg7jTXsXI7cUB</strong>/pubhtml.</p>
+        <p>Note: only include a single tab.</p>
+        <div class="row">
+          <div class="columns large-8 medium-12">
+            <div class="form-item">
+              <input type="text" id="sheetId" name="sheetId" ng-model="sheetId" required="" placeholder="eg. {{ sheetIdPlaceholder }}">
+              <p ng-show="submitSheetForm.sheetId.$error.required" class="form-item__error">Please supply an ID for the spreadsheet</p>
+            </div>
+
+            <div class="form-item">
+              <input type="submit" class="button" value="Visualise this spreadsheet" ng-disabled="submitSheetForm.$invalid">
+            </div>
+
+            <div ng-show="error" class="alert-box alert-box--error">
+              Can't find this spreadsheet, sorry
+              <a ng-click="error = ''" class="float-right no-decoration">
+                  <i class="icon icon-cancel padding-right--small"></i><span class="underline">Close</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <hr>
+      <div class="row" ng-show="columnHeadings.length">
         <div class="columns medium-12 large-3">
           <h2>Filters</h2>
           <hr>

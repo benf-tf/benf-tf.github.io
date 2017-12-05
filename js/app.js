@@ -4,8 +4,8 @@ var app = angular.module('digitalServicesMapping', [
 
 ]);
 
-app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$filter', 
-  function($scope, $window, $http, $filter) {
+app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$filter', '$sce', 
+  function($scope, $window, $http, $filter, $sce) {
 
     // Variables
     var lines, sankey;
@@ -13,6 +13,10 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
     var setDataArray = [];
     var defaultLineWeight = 6;
     var filterObject = {};
+    var href = window.location.href;
+    var hrefArray = window.location.href.split('?');
+    var param = hrefArray[1];
+    var defaultSheetId = '2PACX-1vTBpn1SGb07pajD6kdpznEG6p3weD5ZUukT_wNefBREEx-8d5r03x_H_Jsh2nra-isRg7jTXsXI7cUB';
 
     // Scope variables
     $scope.structuredDataByLine = [];
@@ -20,36 +24,53 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
     $scope.columnHeadings = [];
     $scope.deDupArrays = [];
     $scope.filters = [];
+    $scope.error = false;
+    $scope.sheetIdPlaceholder = defaultSheetId;
+    if(angular.isDefined(param)) {
+      $scope.sheetId =  param;
+    } else {
+      $scope.sheetId = defaultSheetId;
+    }
 
-    // Create Sankey visualisation
-    //sankey = new Sankey();
+    // Reset Sankey stuff
+    var resetSankey = function() {
+      $('#sankey svg').remove();
+      sankey = new Sankey();
+    }
+
+    // More Sankey stuff
+    var setSankey = function() {
+      sankey.setData([]);
+      sankey.setData(setDataArray);
+      sankey.draw();
+    }
 
     // Get CSV file from Google Sheets
-    $http.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vTBpn1SGb07pajD6kdpznEG6p3weD5ZUukT_wNefBREEx-8d5r03x_H_Jsh2nra-isRg7jTXsXI7cUB/pub?gid=0&single=true&output=csv').then(function(response){
+    $scope.getSheet = function(sheetId) {
+      resetSankey();
+      var sanitizedSheetId = $sce.trustAsHtml(sheetId);
+      var sheetUrl = 'https://docs.google.com/spreadsheets/d/e/' + sanitizedSheetId + '/pub?gid=0&single=true&output=csv';
+      sheetUrl = $sce.trustAsHtml(sheetUrl);
+      $http.get(sheetUrl).then(function success(response){
+        // Once we've got it, process data
+        splitLines(response.data);
+        getKeys(response.data);
+        createObject();
+      }, function error(repsonse) {
+        $scope.error = true;
+      });
+    };
 
-      // Once we've got it, process data
-      //console.log(response.data);
-      splitLines(response.data);
-      getKeys(response.data);
-      createObject();
-
-      // createArrays();
-      // setVisualisationData();
-      // setDataFormat();
-      // setSankey();
-
-    });
+    $scope.getSheet($scope.sheetId); 
 
     // Watch structuredDataByLine to rebuild visualisation
     $scope.$watchCollection('structuredDataByLine', function(newVals, oldVals) {
-      //console.log(newVals);
       resetSankey();
       createArrays();
       setVisualisationData();
       setDataFormat();
       setSankey();
       $('#sankey svg').attr('height', '2400');
-      $('#sankey svg').css('height', '2400px !important');
     });
 
     // Filter data
@@ -58,9 +79,6 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
       $scope.structuredDataByLine = $scope.structuredDataByLineCopy;
       // Reset filter checkboxes
       $scope.filters = [];
-      console.log($scope.structuredDataByLine);
-      console.log($scope.structuredDataByLineCopy);
-      console.log(filterObject);
       if(checked) {
         // Reset the filter onbject we use to filter data
         filterObject = [];
@@ -72,19 +90,6 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
         $scope.filters[columnHeading] = [];
         $scope.filters[columnHeading][filterValue] = true;
       }
-      // Iterate through lines in data
-      // angular.forEach($scope.structuredDataByLine, function(line, index) {
-      //   var lineRemoved = false;
-      //   // Iterate through items in each line
-      //   angular.forEach(line, function(value, key) {
-      //     // If the corresponding checkbox in unchecked, remove from data
-      //     if(!$scope.filters[columnHeading][filterValue] && !lineRemoved) {
-      //       $scope.structuredDataByLine.splice(index, 1);
-      //       var lineRemoved = true;
-      //     }
-      //   });
-      // });
-      console.log($scope.structuredDataByLine);
     }
 
     // Workout how many columns to include on filter
@@ -149,19 +154,6 @@ app.controller('digitalServicesMappingCtrl', ['$scope', '$window', '$http', '$fi
         }
       }
       console.log(setDataArray);
-    }
-
-    // Reset Sankey stuff
-    var resetSankey = function() {
-      $('#sankey svg').remove();
-      sankey = new Sankey();
-    }
-
-    // More Sankey stuff
-    var setSankey = function() {
-      sankey.setData([]);
-      sankey.setData(setDataArray);
-      sankey.draw();
     }
 
 }]);
