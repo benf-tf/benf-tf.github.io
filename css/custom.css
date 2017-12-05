@@ -1,0 +1,31 @@
+/*
+ because without a transition on these users will have a seizures.
+*/
+*{
+
+	-webkit-transition: all 0.75s;
+	-moz-transition: all 0.75s;
+	-ms-transition: all 0.75s;
+	-o-transition: all 0.75s;
+	transition: all 0.75s;
+}
+
+.sankey {
+	width: 95%;
+	height: 600px;
+}
+
+svg {
+	display: block;
+	margin: 0 auto;
+  overflow: visible;
+}
+
+.alert-box:before {
+	content: none;
+}
+
+.icon-cancel:before {
+	content: none;
+}
+
